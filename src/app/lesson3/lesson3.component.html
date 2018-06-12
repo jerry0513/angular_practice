@@ -1,0 +1,9 @@
+<p>
+  lesson3 works!
+</p>
+
+<ul>
+  <li *ngFor="let item of score" [ngStyle]="{'color': item<60? 'red':'green'}">
+    {{item}}
+  </li>
+</ul>
